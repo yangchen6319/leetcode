@@ -1,14 +1,15 @@
 #include <iostream>
-#include<set>
 
 using namespace std;
 
+void test(int j){
+  cout <<j;
+}
 int main(){
-  float n = 7;
+  int n = 7;
   float pass = 3;
   float a = pass/n;
-  cout << a << endl;
-  set<int> s;
-  s.insert(2);
+  test(n--);
   return 0;
 }
+
