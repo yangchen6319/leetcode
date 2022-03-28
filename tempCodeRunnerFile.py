@@ -1,0 +1,2 @@
+
+        lines.add((slope, inter))
